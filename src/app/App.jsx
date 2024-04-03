@@ -11,18 +11,20 @@ const router = createBrowserRouter([
   {
     path: "/myportfolio/",
     element: <><Header/><Home/><Footer/></>,
-  },
-  {
-    path: "/myportfolio/about",
-    element: <><Header/><About/><Footer/></>,
-  },
-  {
-    path: "/myportfolio/projects",
-    element: <><Header/><Projects/><Footer/></>,
-  },
-  {
-    path: "/myportfolio/*",
-    element: <><Header/><Error/><Footer/></>,
+    children: [
+      {
+        path: "/myportfolio/about",
+        element: <><Header/><About/><Footer/></>,
+      },
+      {
+        path: "/myportfolio/projects",
+        element: <><Header/><Projects/><Footer/></>,
+      },
+      {
+        path: "/myportfolio/*",
+        element: <><Header/><Error/><Footer/></>,
+      },
+    ]
   },
 ]);
 
