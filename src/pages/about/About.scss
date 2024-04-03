@@ -1,0 +1,61 @@
+.about {
+  margin: 0px 16px 0px 16px;
+  .about-section {
+    background-color: rgb(39, 36, 47);
+    margin: 0px 16px 0px 16px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #ffffff;
+    padding: 2rem 3rem;
+    .paraph {
+      margin: 0px 0px 16px 0px;
+      font-size: 1.5rem;
+  
+      span {
+        color: rgb(0, 255, 164);
+
+        .branch {
+          color: #27c93f;
+        }
+      }
+      ul {
+        column-count: 2;
+
+        li {
+          list-style-type: none;
+          margin-bottom: 16px;
+
+          &:hover {
+            transform: translateY(-15%);
+            transition: 200ms;
+          }
+        }
+
+        .swagger {
+          display: flex;
+          .swagger-img {
+            width: 26px;
+            height: 26px;
+            margin-right: 8px;
+          }
+        }
+
+        @media screen and (max-width:768px) {
+          column-count: 1;
+        }
+      }
+    }
+    .hobbies {
+      li {
+        list-style-type: none;
+        margin-bottom: 16px;
+        font-size: 1.5rem;
+
+        &:hover {
+          transform: translateY(-15%);
+          transition: 200ms;
+        }
+      }
+    }
+  }
+}

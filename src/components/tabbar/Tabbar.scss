@@ -1,0 +1,24 @@
+.tabbar {
+  font-size: 14px;
+  background-color: rgb(140, 140, 140);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 8px;
+  margin: 60px 16px 0px 16px;
+  box-sizing: border-box;
+  .fa-circle {
+    margin-left: 8px;
+  }
+
+  .red {
+    color: #ff6057;
+  }
+
+  .yellow {
+    color: #ffbd2e;
+  }
+
+  .green {
+    color: #27c93f;
+  }
+}

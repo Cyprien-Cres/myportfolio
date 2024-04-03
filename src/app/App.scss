@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+  margin: 0;
+  cursor: none;
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+
+    @media screen and (min-width:768px) {
+      max-width: 768px;
+    }
+    @media screen and (min-width:1024px) {
+      max-width: 1024px;
+    }
+
+    @media screen and (min-width:1440px) {
+      max-width: 1440px;
+    }
+  }
+  
+  .cursor {
+    width: 14px;
+    height: 14px;
+    cursor: none;
+    background-color: #e66464b9;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 11;
+  }
+
+  .expand {
+    animation: Anim1 .5s;
+  }
+
+  @keyframes Anim1 {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
