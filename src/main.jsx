@@ -6,6 +6,7 @@ import Home from "./pages/home/Home"
 import About from "./pages/about/About"
 import Projects from "./pages/projects/Projects"
 import Error from "./pages/error/Error"
+import App from "./app/App"
 import { store } from './app/store'
 import { Provider } from 'react-redux'
 import "./main.scss"
@@ -27,20 +28,26 @@ document.addEventListener('click', () => {
 const router = createBrowserRouter([
   {
     path: "/myportfolio/",
-    element: <><Header/><Home/><Footer/></>,
-  },
-  {
-    path: "/myportfolio/about",
-    element: <><Header/><About/><Footer/></>,
-  },
-  {
-    path: "/myportfolio/projects",
-    element: <><Header/><Projects/><Footer/></>,
-  },
-  {
-    path: "/myportfolio/*",
-    element: <><Header/><Error/><Footer/></>,
-  },
+    element: <App />,
+    children: [
+      {
+        path: "/myportfolio/",
+        element: <><Header/><Home/><Footer/></>,
+      },
+      {
+        path: "/myportfolio/about",
+        element: <><Header/><About/><Footer/></>,
+      },
+      {
+        path: "/myportfolio/projects",
+        element: <><Header/><Projects/><Footer/></>,
+      },
+      {
+        path: "/myportfolio/*",
+        element: <><Header/><Error/><Footer/></>,
+      },
+    ]
+  }  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
