@@ -31,13 +31,13 @@ function ModalContent({ closeModal, id, title, pictures, fr, en, technologies, s
                 <div className="link-dark">
                   { trad ? (
                     <>
-                      <a href={`${site}`}><button><i className="fa-brands fa-safari"></i> Project</button></a>
-                      <a href={`${github}`}><button><i className="fa-solid fa-code"></i> Code</button></a>
+                      <a href={`${site}`} target="_blank"><button><i className="fa-brands fa-safari"></i> Project</button></a>
+                      <a href={`${github}`} target="_blank"><button><i className="fa-solid fa-code"></i> Code</button></a>
                     </>
                   ) : (
                     <>
-                      <a href={`${site}`}><button><i className="fa-brands fa-safari"></i> Projet</button></a>
-                      <a href={`${github}`}><button><i className="fa-solid fa-code"></i> Code</button></a>
+                      <a href={`${site}`} target="_blank"><button><i className="fa-brands fa-safari"></i> Projet</button></a>
+                      <a href={`${github}`} target="_blank"><button><i className="fa-solid fa-code"></i> Code</button></a>
                     </>
                   )}
                 </div>
@@ -61,13 +61,13 @@ function ModalContent({ closeModal, id, title, pictures, fr, en, technologies, s
                   <div className="link-projects">
                     { trad ? (
                       <>
-                        <a href={`${site}`}><button><i className="fa-brands fa-safari"></i> Project</button></a>
-                        <a href={`${github}`}><button><i className="fa-solid fa-code"></i> Code</button></a>
+                        <a href={`${site}`} target="_blank"><button><i className="fa-brands fa-safari"></i> Project</button></a>
+                        <a href={`${github}`} target="_blank"><button><i className="fa-solid fa-code"></i> Code</button></a>
                       </>
                     ) : (
                       <>
-                        <a href={`${site}`}><button><i className="fa-brands fa-safari"></i> Projet</button></a>
-                        <a href={`${github}`}><button><i className="fa-solid fa-code"></i> Code</button></a>
+                        <a href={`${site}`} target="_blank"><button><i className="fa-brands fa-safari"></i> Projet</button></a>
+                        <a href={`${github}`} target="_blank"><button><i className="fa-solid fa-code"></i> Code</button></a>
                       </>
                     )}
                   </div>
