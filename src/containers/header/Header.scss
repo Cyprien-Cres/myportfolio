@@ -36,11 +36,15 @@
     align-items: center;
     a {
       cursor: none;
+      color: black;
       &:hover {
         transform: translateY(-15%);
         transition: 200ms;
         background-color: #e5e7eb5b;
         border-radius: 5px;
+      }
+      &:visited {
+        color: black;
       }
     }
 

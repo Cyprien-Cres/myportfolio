@@ -87,7 +87,7 @@ const projectsList = [
       "https://images.wakelet.com/resize?id=vF4_i2PJCMT3k-8vfjBlo&h=576&w=768&q=85",
       "https://images.wakelet.com/resize?id=KJh9irmbyDaTKwKuk3qC2&h=768&w=768&q=85",
     ],
-    site: "",
+    site: "https://cyprien-cres.github.io/Portfolio-Sophie.Buel/",
     github: "https://github.com/Cyprien-Cres/Portfolio-Sophie.Buel"
   },
   {
