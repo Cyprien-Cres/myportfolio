@@ -31,7 +31,7 @@ function Header() {
             {mode ? (
               <>
                 <div className="username">
-                  <Link to={"/myportfolio/"}>
+                  <Link to={"/"}>
                     <h1 className="dark">Cyprien.</h1>
                   </Link>
                 </div>
@@ -45,10 +45,10 @@ function Header() {
                       </button>
                       <div className="little-menu darkbg">
                         <div>
-                          <Link to={"/myportfolio/projects"} onClick={close}>
+                          <Link to={"/projects"} onClick={close}>
                             <button className="dark">Projects</button>
                           </Link>
-                          <Link to={"/myportfolio/about"} onClick={close}>
+                          <Link to={"/about"} onClick={close}>
                             <button className="dark">About</button>
                           </Link>
                           <a href={cven} target="_blank">
@@ -67,10 +67,10 @@ function Header() {
               )}
               </div>
               <div className= "menu">
-                <Link to={"/myportfolio/projects"} className={isProjects ? "active" : ""}>
+                <Link to={"/projects"} className={isProjects ? "active" : ""}>
                   <button className="dark">Projects</button>
                 </Link>
-                <Link to={"/myportfolio/about"} className={isAbout ? "active" : ""}>
+                <Link to={"/about"} className={isAbout ? "active" : ""}>
                   <button className="dark">About</button>
                 </Link>
                 <a href={cven} target="_blank">
@@ -86,7 +86,7 @@ function Header() {
             ) : (
               <>
                 <div className="username">
-                  <Link to={"/myportfolio/"}>
+                  <Link to={"/"}>
                     <h1>Cyprien.</h1>
                   </Link>
                 </div>
@@ -100,10 +100,10 @@ function Header() {
                       </button>
                       <div className="little-menu">
                         <div>
-                          <Link to={"/myportfolio/projects"} onClick={close}>
+                          <Link to={"/projects"} onClick={close}>
                             <button>Projects</button>
                           </Link>
-                          <Link to={"/myportfolio/about"} onClick={close}>
+                          <Link to={"/about"} onClick={close}>
                             <button>About</button>
                           </Link>
                           <a href={cven} target="_blank">
@@ -122,10 +122,10 @@ function Header() {
                   )}
                 </div>
                 <div className= "menu">
-                <Link to={"/myportfolio/projects"} className={isProjects ? "active" : ""}>
+                <Link to={"/projects"} className={isProjects ? "active" : ""}>
                     <button className="btn">Projects</button>
                   </Link>
-                  <Link to={"/myportfolio/about"} className={isAbout ? "active" : ""}>
+                  <Link to={"/about"} className={isAbout ? "active" : ""}>
                     <button className="btn">About</button>
                   </Link>
                   <a href={cven} target="_blank">
@@ -146,7 +146,7 @@ function Header() {
             {mode ? (
               <>
                 <div className="username">
-                  <Link to={"/myportfolio/"}>
+                  <Link to={"/"}>
                     <h1 className="dark">Cyprien.</h1>
                   </Link>
                 </div>
@@ -160,10 +160,10 @@ function Header() {
                       </button>
                       <div className="little-menu darkbg">
                         <div>
-                          <Link to={"/myportfolio/projects"} onClick={close}>
+                          <Link to={"/projects"} onClick={close}>
                             <button className="dark">Projets</button>
                           </Link>
-                          <Link to={"/myportfolio/about"} onClick={close}>
+                          <Link to={"/about"} onClick={close}>
                             <button className="dark">Présentation</button>
                           </Link>
                           <a href={cvfr} target="_blank">
@@ -182,10 +182,10 @@ function Header() {
               )}
             </div>
             <div className= "menu">
-            <Link to={"/myportfolio/projects"} className={isProjects ? "active" : ""}>
+            <Link to={"/projects"} className={isProjects ? "active" : ""}>
                 <button className="dark">Projets</button>
               </Link>
-              <Link to={"/myportfolio/about"} className={isAbout ? "active" : ""}>
+              <Link to={"/about"} className={isAbout ? "active" : ""}>
                 <button className="dark">Présentation</button>
               </Link>
               <a href={cvfr} target="_blank">
@@ -201,7 +201,7 @@ function Header() {
             ) : (
               <>
                 <div className="username">
-                  <Link to={"/myportfolio/"}>
+                  <Link to={"/"}>
                     <h1>Cyprien.</h1>
                   </Link>
                 </div>
@@ -215,10 +215,10 @@ function Header() {
                       </button>
                       <div className="little-menu">
                         <div>
-                          <Link to={"/myportfolio/projects"} onClick={close}>
+                          <Link to={"/projects"} onClick={close}>
                             <button>Projets</button>
                           </Link>
-                          <Link to={"/myportfolio/about"} onClick={close}>
+                          <Link to={"/about"} onClick={close}>
                             <button>Présentation</button>
                           </Link>
                           <a href={cvfr} target="_blank">
@@ -237,10 +237,10 @@ function Header() {
                   )}
                 </div>
                 <div className= "menu">
-                <Link to={"/myportfolio/projects"} className={isProjects ? "active" : ""}>
+                <Link to={"/projects"} className={isProjects ? "active" : ""}>
                     <button className="btn">Projets</button>
                   </Link>
-                  <Link to={"/myportfolio/about"} className={isAbout ? "active" : ""}>
+                  <Link to={"/about"} className={isAbout ? "active" : ""}>
                     <button className="btn">Présentation</button>
                   </Link>
                   <a href={cvfr} target="_blank">
