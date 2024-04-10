@@ -11,7 +11,7 @@
       text-decoration: none;
       cursor: none;
       &:visited {
-        color: black;
+        color: #111111;
       }
 
       h1 {
@@ -36,6 +36,7 @@
     align-items: center;
     a {
       cursor: none;
+      color: #111111;
       &:hover {
         transform: translateY(-15%);
         transition: 200ms;
@@ -43,7 +44,7 @@
         border-radius: 5px;
       }
       &:visited {
-        color: black;
+        color:#111111;
       }
     }
 
@@ -124,7 +125,7 @@
       align-items: center;
       justify-content: center;
       margin-right: 0px;
-      border: 1px solid black;
+      border: 1px solid #111111;
       border-radius: 10px;
       padding: 10px 10px 10px 10px;
 
@@ -156,8 +157,9 @@
       height: 212px;
       width: 375px;
       transform: translate(-50%, 0%);
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #111111;
       background-color: white;
+      color: #111111;
       div {
         display: flex;
         flex-direction: column;
@@ -165,6 +167,7 @@
         height: 100%;
         width: 100%;
         a {
+          color: #111111;
           &:hover {
             transform: translateX(-5%);
             transition: 200ms;
@@ -174,6 +177,7 @@
 
           button {
             font-size: 1rem;
+            color: #111111;
           }
         }
       }

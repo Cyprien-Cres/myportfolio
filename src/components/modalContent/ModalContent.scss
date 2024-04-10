@@ -54,7 +54,7 @@
     display: flex;
     column-gap: 20px;
     a {
-      color: black;
+      color: #111111;
 
       button {
         border: 2px solid black;
@@ -63,7 +63,7 @@
         background-color: transparent;
         padding: 5px 10px 5px 10px;
         cursor: none;
-  
+        color: #111111;
         &:hover {
           background-color: #e5e7eb81;
           transform: scale(130%, 130%);
@@ -72,7 +72,7 @@
       }
 
       &:visited {
-        color: black;
+        color: #111111;
       }
     }
   }
