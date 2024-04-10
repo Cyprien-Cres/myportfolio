@@ -27,7 +27,7 @@ function Header() {
     <>
       {trad ? (
         <>
-          <div className="header">
+          <header className="header">
             {mode ? (
               <>
                 <div className="username">
@@ -139,10 +139,10 @@ function Header() {
                 </div>
               </>
             )}
-          </div>
+          </header>
         </>
       ) : (
-        <div className="header">
+        <header className="header">
             {mode ? (
               <>
                 <div className="username">
@@ -254,7 +254,7 @@ function Header() {
                 </div>
               </>
             )}
-          </div>
+          </header>
         )}
     </>
   ) 

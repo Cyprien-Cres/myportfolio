@@ -1,29 +1,5 @@
 const projectsList = [
   {
-    id: "a2bC4dE",
-    title: "Argent Bank",
-    cover: "https://images.wakelet.com/resize?id=x7oun9MhNx5u1u3gXP82I&h=367&w=768&q=85",
-    pictures: [
-      "https://images.wakelet.com/resize?id=x7oun9MhNx5u1u3gXP82I&h=367&w=768&q=85",
-      "https://images.wakelet.com/resize?id=jGCkoowBlTBoGOs-l7zNT&h=366&w=768&q=85",
-      "https://images.wakelet.com/resize?id=a0IiI6Z9PP5alZaakH7eB&h=366&w=768&q=85",
-    ],
-    fr:
-      "Argent Bank est un site web qui permet de gérer un compte bancaire. Ma mission était d'implémenter le front-end de l'application avec React. Pour ce projet, j'ai utilisé Redux pour gérer le store combiné à une API, ce qui m'a permis de gérer facilement les connexions et les modifications utilisateur. J'ai aussi créé des routes sur Swagger pour le futur travail du développeur back-end.",
-    en: 
-      "Argent Bank is a website for managing bank accounts. My mission was to implement the front-end of the application using React. For this project, I used Redux to manage the store combined with an API, which enabled me to easily manage user connections and modifications. I also created routes on Swagger for the back-end developer's future work.",
-    technologies: [
-      "https://images.wakelet.com/resize?id=xKZAWkDZA7SBQCavsdtE7&h=768&w=768&q=85",
-      "https://images.wakelet.com/resize?id=oYnLTX3ogy1QuTUasEcEq&h=768&w=768&q=85",
-      "https://images.wakelet.com/resize?id=vF4_i2PJCMT3k-8vfjBlo&h=576&w=768&q=85",
-      "https://images.wakelet.com/resize?id=KJh9irmbyDaTKwKuk3qC2&h=768&w=768&q=85",
-      "https://images.wakelet.com/resize?id=w41Z8-ZwsUaN2_KwB195J&h=768&w=768&q=85",
-      "https://images.wakelet.com/resize?id=iN8aWqahKJ2rTp9-MgbzD&h=732&w=768&q=85",
-    ],
-    site: "",
-    github: "https://github.com/Cyprien-Cres/ArgentBank-Frontend"
-  },
-  {
     id: "1fGhI3jK",
     title: "Nina Carducci",
     cover: "https://images.wakelet.com/resize?id=Z8AA-rOwMX4xJL9lYKhwI&h=366&w=768&q=85",
@@ -67,6 +43,30 @@ const projectsList = [
     ],
     site: "https://cyprien-cres.github.io/kasa/",
     github: "https://github.com/Cyprien-Cres/kasa"
+  },
+  {
+    id: "a2bC4dE",
+    title: "Argent Bank",
+    cover: "https://images.wakelet.com/resize?id=x7oun9MhNx5u1u3gXP82I&h=367&w=768&q=85",
+    pictures: [
+      "https://images.wakelet.com/resize?id=x7oun9MhNx5u1u3gXP82I&h=367&w=768&q=85",
+      "https://images.wakelet.com/resize?id=jGCkoowBlTBoGOs-l7zNT&h=366&w=768&q=85",
+      "https://images.wakelet.com/resize?id=a0IiI6Z9PP5alZaakH7eB&h=366&w=768&q=85",
+    ],
+    fr:
+      "Argent Bank est un site web qui permet de gérer un compte bancaire. Ma mission était d'implémenter le front-end de l'application avec React. Pour ce projet, j'ai utilisé Redux pour gérer le store combiné à une API, ce qui m'a permis de gérer facilement les connexions et les modifications utilisateur. J'ai aussi créé des routes sur Swagger pour le futur travail du développeur back-end.",
+    en: 
+      "Argent Bank is a website for managing bank accounts. My mission was to implement the front-end of the application using React. For this project, I used Redux to manage the store combined with an API, which enabled me to easily manage user connections and modifications. I also created routes on Swagger for the back-end developer's future work.",
+    technologies: [
+      "https://images.wakelet.com/resize?id=xKZAWkDZA7SBQCavsdtE7&h=768&w=768&q=85",
+      "https://images.wakelet.com/resize?id=oYnLTX3ogy1QuTUasEcEq&h=768&w=768&q=85",
+      "https://images.wakelet.com/resize?id=vF4_i2PJCMT3k-8vfjBlo&h=576&w=768&q=85",
+      "https://images.wakelet.com/resize?id=KJh9irmbyDaTKwKuk3qC2&h=768&w=768&q=85",
+      "https://images.wakelet.com/resize?id=w41Z8-ZwsUaN2_KwB195J&h=768&w=768&q=85",
+      "https://images.wakelet.com/resize?id=iN8aWqahKJ2rTp9-MgbzD&h=732&w=768&q=85",
+    ],
+    site: "",
+    github: "https://github.com/Cyprien-Cres/ArgentBank-Frontend"
   },
   {
     id: "wM5nO1P",
