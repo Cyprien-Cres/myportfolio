@@ -216,16 +216,16 @@ function Header() {
                       <div className="little-menu">
                         <div>
                           <Link to={"/projects"} onClick={close}>
-                            <button>Projets</button>
+                            <button className="button-black">Projets</button>
                           </Link>
                           <Link to={"/about"} onClick={close}>
-                            <button>Présentation</button>
+                            <button className="button-black">Présentation</button>
                           </Link>
                           <a href={cvfr} target="_blank">
-                            <button>CV</button>
+                            <button className="button-black">CV</button>
                           </a>
                           <a href="mailto:kanki.dev@gmail.com" onClick={close}>
-                            <button>Contact</button>
+                            <button className="button-black">Contact</button>
                           </a>
                         </div>
                       </div>
@@ -238,16 +238,16 @@ function Header() {
                 </div>
                 <div className= "menu">
                 <Link to={"/projects"} className={isProjects ? "active" : ""}>
-                    <button className="btn">Projets</button>
+                    <button className="btn button-black">Projets</button>
                   </Link>
                   <Link to={"/about"} className={isAbout ? "active" : ""}>
-                    <button className="btn">Présentation</button>
+                    <button className="btn button-black">Présentation</button>
                   </Link>
                   <a href={cvfr} target="_blank">
-                    <button className="btn">CV</button>
+                    <button className="btn button-black">CV</button>
                   </a>
                   <a href="mailto:kanki.dev@gmail.com">
-                    <button className="btn">Contact</button>
+                    <button className="btn button-black">Contact</button>
                   </a>
                   <Btntrad />
                   <Btnmode />
