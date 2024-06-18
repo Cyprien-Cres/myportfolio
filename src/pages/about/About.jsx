@@ -16,7 +16,7 @@ function About() {
               <span>cypriencres $</span> cd aboutme
             </p>
             <p className="paraph">
-              <span>aboutme <span className="branch">(main)</span> $ </span> Hello! My name is cyprien. I'm a web developer. I studied at OpenClassRooms, I'm very curious and I like to learn new things. I'll be happy to get more experience in web development.
+              <span>aboutme <span className="branch">(main)</span> $ </span> Hello! My name is cyprien. After following training as a Web Integrator, my objective is to continue to acquire skills while accumulating experience through work-study training.
             </p>
           </div>
           <Tabbar />
@@ -67,7 +67,7 @@ function About() {
               <span>cypriencres $</span> cd aboutme
             </p>
             <p className="paraph">
-              <span>aboutme <span className="branch">(main)</span> $ </span> Bonjour! Je m'appelle Cyprien. Je suis développeur web. J'ai étudié chez OpenClassrooms. Je suis très curieux et j'aime apprendre de nouvelles choses. Je serais heureux d'acquérir plus d'expérience dans le domaine du développement web.
+              <span>aboutme <span className="branch">(main)</span> $ </span> Bonjour! Je m'appelle Cyprien. Après avoir suivi une formation d'Intégrateur web, mon objectif est de continuer à acquérir des compétences tout en accumulant de l'expérience grâce à l'alternance.
             </p>
           </div>
           <Tabbar />
