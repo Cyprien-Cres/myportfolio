@@ -25,30 +25,33 @@ document.addEventListener('click', () => {
   }, 500)
 })
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <><Header/><Home/><Footer/></>,
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          path: "/",
+          element: <><Header/><Home/><Footer/></>,
+        },
+        {
+          path: "/about",
+          element: <><Header/><About/><Footer/></>,
+        },
+        {
+          path: "/projects",
+          element: <><Header/><Projects/><Footer/></>,
+        },
+        {
+          path: "/*",
+          element: <><Header/><Error/><Footer/></>,
       },
-      {
-        path: "/about",
-        element: <><Header/><About/><Footer/></>,
-      },
-      {
-        path: "/projects",
-        element: <><Header/><Projects/><Footer/></>,
-      },
-      {
-        path: "/*",
-        element: <><Header/><Error/><Footer/></>,
-      },
-    ]
-  }  
-]);
+      ]
+    }  
+  ],
+  { basename: "/myportfolio" }
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
