@@ -27,23 +27,23 @@ document.addEventListener('click', () => {
 
 const router = createBrowserRouter([
   {
-    path: "/myportfolio/",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: "/myportfolio/",
+        path: "/",
         element: <><Header/><Home/><Footer/></>,
       },
       {
-        path: "/myportfolio/about",
+        path: "/about",
         element: <><Header/><About/><Footer/></>,
       },
       {
-        path: "/myportfolio/projects",
+        path: "/projects",
         element: <><Header/><Projects/><Footer/></>,
       },
       {
-        path: "/myportfolio/*",
+        path: "/*",
         element: <><Header/><Error/><Footer/></>,
       },
     ]
