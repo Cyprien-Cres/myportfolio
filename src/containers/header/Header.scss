@@ -133,6 +133,11 @@
       .trad-drapeau {
         height: 13px;
       }
+
+      &:hover {
+        transform: scale(130%);
+        transition: 200ms;
+      }
     }
 
     .trad-dark {
@@ -143,9 +148,13 @@
       border: 1px solid white;
       border-radius: 10px;
       padding: 10px 10px 10px 10px;
-
+      -webkit-text-fill-color: white !important;
       .trad-drapeau {
         height: 13px;
+      }
+      &:hover {
+        transform: scale(130%);
+        transition: 200ms;
       }
     }
 
