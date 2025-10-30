@@ -6,16 +6,13 @@
   justify-content: space-between;
   .username {
     margin-left: 16px;
-    cursor: none;
     a {
       text-decoration: none;
-      cursor: none;
       &:visited {
       -webkit-text-fill-color: black !important;
       }
 
       h1 {
-        cursor: none;
         font-size: 1.7rem;
       }
     }
@@ -39,8 +36,8 @@
     display: flex;
     align-items: center;
     a {
-      cursor: none;
       -webkit-text-fill-color: black !important;
+      cursor: pointer;
       &:hover {
         transform: translateY(-15%);
         transition: 200ms;
@@ -49,6 +46,7 @@
       }
       &:visited {
         color: black;
+        cursor: pointer;
       }
     }
 
@@ -64,7 +62,7 @@
       padding: 0px 8px;
       background-color: transparent;
       border: none;
-      cursor: none;
+      cursor: pointer;
       font-family: 'Courier New', Courier, monospace;
       font-weight: bold;
       img {
@@ -80,11 +78,10 @@
     .sun {
       margin-right: 16px;
       padding-right: 0px;
-      cursor: none;
       display: flex;
       align-items: center;
       justify-content: center;
-
+      cursor: pointer;
       
       img {
         width: 26px;
@@ -104,10 +101,10 @@
     .moon {
       margin-right: 16px;
       padding-right: 0px;
-      cursor: none;
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
 
       img {
         width: 33px;

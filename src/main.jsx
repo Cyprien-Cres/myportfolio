@@ -11,20 +11,6 @@ import { store } from './app/store'
 import { Provider } from 'react-redux'
 import "./main.scss"
 
-const cursor = document.querySelector('.cursor')
-
-document.addEventListener('mousemove', e => {
-  cursor.setAttribute('style', 'top:'+(e.pageY - 7)+"px; left:"+(e.pageX - 7)+"px;")
-})
-
-document.addEventListener('click', () => {
-  cursor.classList.add('expand')
-
-  setTimeout(() => {
-    cursor.classList.remove("expand")
-  }, 500)
-})
-
 const router = createBrowserRouter([
   {
     path: "/",
