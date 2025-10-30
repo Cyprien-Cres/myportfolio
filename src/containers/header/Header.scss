@@ -11,7 +11,7 @@
       text-decoration: none;
       cursor: none;
       &:visited {
-        color: black;
+      -webkit-text-fill-color: black !important;
       }
 
       h1 {
@@ -28,6 +28,10 @@
     @media screen and (max-width:768px) {
       font-size: 1rem;
     }
+
+    .dark {
+    -webkit-text-fill-color: white !important;
+    }
   }
 
   .menu {
@@ -36,7 +40,7 @@
     align-items: center;
     a {
       cursor: none;
-      color: black;
+      -webkit-text-fill-color: black !important;
       &:hover {
         transform: translateY(-15%);
         transition: 200ms;
@@ -70,7 +74,7 @@
     }
 
     .dark {
-      color: white;
+      -webkit-text-fill-color: white !important;
     }
 
     .sun {
@@ -171,6 +175,13 @@
             transition: 200ms;
             background-color: #e5e7eb5b;
             border-radius: 5px;
+            color: black;
+          }
+          &:link,
+          &:visited,
+          &:active {
+            color: black !important;
+            text-decoration: none;
           }
 
           button {
@@ -181,6 +192,7 @@
     }
 
     .btn-menu {
+      color: black;
       &:hover {
         transform: scale(140%);
         transition: 200ms;

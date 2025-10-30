@@ -54,7 +54,7 @@
     display: flex;
     column-gap: 20px;
     a {
-      color: black;
+      -webkit-text-fill-color: black !important;
 
       button {
         border: 2px solid black;
